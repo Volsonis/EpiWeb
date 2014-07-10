@@ -6,15 +6,16 @@
          xmlns="http://java.sun.com/xml/ns/javaee">
 
   <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>epiweb.server.GreetingServiceImpl</servlet-class>
+  <servlet> 
+  	<servlet-name>EpiDBAcessServlet</servlet-name>
+  	<servlet-class>epiweb.server.EpiDBAccessImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/epiweb/greet</url-pattern>
+  	<servlet-name>EpiDBAcessServlet</servlet-name>
+  	<url-pattern>/epiweb/epidbaccessservice</url-pattern>
   </servlet-mapping>
+  
   
   <!-- Default page to serve -->
   <welcome-file-list>
