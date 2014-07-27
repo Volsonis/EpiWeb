@@ -1,0 +1,2 @@
+serviceClass: epiweb.client.service.EpiDBAccessService
+path: 570628B848624AFB71A9BA8B84724DAB.gwt.rpc
